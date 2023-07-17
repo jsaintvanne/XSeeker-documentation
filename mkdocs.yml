@@ -1,0 +1,21 @@
+site_name: W4M Documentation test
+theme:
+  name: material
+  logo: https://avatars.githubusercontent.com/u/17082156?s=200&v=4
+  favicon: https://avatars.githubusercontent.com/u/17082156?s=200&v=4
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - toc.integrate
+nav:
+  - Introduction: index.md
+  - SectionA:
+    - sectionA/index.md
+    - Part 1: sectionA/page1.md
+    - Part 2: sectionA/page2.md
+    - Part 3: sectionA/page3.md
