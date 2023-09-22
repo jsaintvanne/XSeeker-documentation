@@ -1,0 +1,898 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../xseekerbasemodule/">
+      
+      
+        <link rel="next" href="../../on_galaxy/">
+      
+      
+      <link rel="icon" href="https://avatars.githubusercontent.com/u/17082156?s=200&v=4">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.0">
+    
+    
+      
+        <title>Installation of XSeeker - XSeeker documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.9f615399.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#installation-of-xseeker" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="XSeeker documentation" class="md-header__button md-logo" aria-label="XSeeker documentation" data-md-component="logo">
+      
+  <img src="https://avatars.githubusercontent.com/u/17082156?s=200&v=4" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            XSeeker documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Installation of XSeeker
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+      <div class="md-header__source">
+        <a href="https://unh-pfem-gitlab.ara.inrae.fr/chopin/xseeker" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="m503.5 204.6-.7-1.8-69.7-181.78c-1.4-3.57-3.9-6.59-7.2-8.64-2.4-1.55-5.1-2.515-8-2.81-2.9-.295-5.7.083-8.4 1.11-2.7 1.02-5.1 2.66-7.1 4.78-1.9 2.12-3.3 4.67-4.1 7.44l-47 144H160.8l-47.1-144c-.8-2.77-2.2-5.31-4.1-7.43-2-2.12-4.4-3.75-7.1-4.77a18.1 18.1 0 0 0-8.38-1.113 18.4 18.4 0 0 0-8.04 2.793 18.09 18.09 0 0 0-7.16 8.64L9.267 202.8l-.724 1.8a129.57 129.57 0 0 0-3.52 82c7.747 26.9 24.047 50.7 46.447 67.6l.27.2.59.4 105.97 79.5 52.6 39.7 32 24.2c3.7 1.9 8.3 4.3 13 4.3 4.7 0 9.3-2.4 13-4.3l32-24.2 52.6-39.7 106.7-79.9.3-.3c22.4-16.9 38.7-40.6 45.6-67.5 8.6-27 7.4-55.8-2.6-82z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    chopin/xseeker
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Introduction
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+    
+  
+  For developpers
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../on_galaxy/" class="md-tabs__link">
+          
+  
+    
+  
+  On Galaxy W4M
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../how_to_use/" class="md-tabs__link">
+          
+  
+    
+  
+  How to use XSeeker ?
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="XSeeker documentation" class="md-nav__button md-logo" aria-label="XSeeker documentation" data-md-component="logo">
+      
+  <img src="https://avatars.githubusercontent.com/u/17082156?s=200&v=4" alt="logo">
+
+    </a>
+    XSeeker documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://unh-pfem-gitlab.ara.inrae.fr/chopin/xseeker" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="m503.5 204.6-.7-1.8-69.7-181.78c-1.4-3.57-3.9-6.59-7.2-8.64-2.4-1.55-5.1-2.515-8-2.81-2.9-.295-5.7.083-8.4 1.11-2.7 1.02-5.1 2.66-7.1 4.78-1.9 2.12-3.3 4.67-4.1 7.44l-47 144H160.8l-47.1-144c-.8-2.77-2.2-5.31-4.1-7.43-2-2.12-4.4-3.75-7.1-4.77a18.1 18.1 0 0 0-8.38-1.113 18.4 18.4 0 0 0-8.04 2.793 18.09 18.09 0 0 0-7.16 8.64L9.267 202.8l-.724 1.8a129.57 129.57 0 0 0-3.52 82c7.747 26.9 24.047 50.7 46.447 67.6l.27.2.59.4 105.97 79.5 52.6 39.7 32 24.2c3.7 1.9 8.3 4.3 13 4.3 4.7 0 9.3-2.4 13-4.3l32-24.2 52.6-39.7 106.7-79.9.3-.3c22.4-16.9 38.7-40.6 45.6-67.5 8.6-27 7.4-55.8-2.6-82z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    chopin/xseeker
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    For developpers
+  </span>
+  
+
+            </a>
+            
+              <label class="md-nav__link " for="__nav_2">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            For developpers
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../xseekerbasemodule/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installation of XSeekerBaseModule
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Installation of XSeeker
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Installation of XSeeker
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cloning-the-repository" class="md-nav__link">
+    Cloning the repository
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requirement" class="md-nav__link">
+    Requirement
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modification-of-coniguration-files" class="md-nav__link">
+    Modification of coniguration files
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#building-and-installation" class="md-nav__link">
+    Building and installation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#structure" class="md-nav__link">
+    Structure
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../on_galaxy/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    On Galaxy W4M
+  </span>
+  
+
+            </a>
+            
+              <label class="md-nav__link " for="__nav_3">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            On Galaxy W4M
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../on_galaxy/xseeker_preparator/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    XSeeker Preparator
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../on_galaxy/xseeker_tool/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    XSeeker tool
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../how_to_use/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    How to use XSeeker ?
+  </span>
+  
+
+            </a>
+            
+              <label class="md-nav__link " for="__nav_4">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            How to use XSeeker ?
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how_to_use/kmd_plot/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    KMD plot
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how_to_use/chromato/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chromatogram and mass spectrum
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how_to_use/cluster_table/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cluster table
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="installation-of-xseeker">Installation of XSeeker</h1>
+<p>You will need to go to the gitlab repository: https://unh-pfem-gitlab.ara.inrae.fr/chopin/xseeker</p>
+<h2 id="cloning-the-repository">Cloning the repository</h2>
+<p>To start, you will need to clone the gitlab repository: https://unh-pfem-gitlab.ara.inrae.fr/chopin/xseeker
+To be able to do this, you need an account on this platform and also an access to this repository. After that, in a terminal on your computer you have to write:
+<div class="language-yaml copy highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="l l-Scalar l-Scalar-Plain">git clone https://unh-pfem-gitlab.ara.inrae.fr/chopin/xseeker.git</span>
+</span></code></pre></div></p>
+<p>This will copy the folder on your computer. To access to it you should do:
+<div class="language-yaml copy highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="l l-Scalar l-Scalar-Plain">cd my_personal_path/xseeker</span>
+</span></code></pre></div>
+where <code>my_personal_path</code> is the path to access your folder just cloned !</p>
+<h2 id="requirement">Requirement</h2>
+<p>System dependencies:</p>
+<ul>
+<li>R-4.0.0</li>
+<li>git</li>
+</ul>
+<p>Have the module XSeekerBaseModule installed: see <a href="../xseekerbasemodule/">this section</a>.</p>
+<h2 id="modification-of-coniguration-files">Modification of coniguration files</h2>
+<p>You will have different files to modify before running your application. The first one will be the <code>config.yml</code> file:
+<div class="language-yaml copy highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="l l-Scalar l-Scalar-Plain">cp ./config/config.default.yml ./config/config.yml</span><span class="w"> </span>
+</span></code></pre></div>
+Then you can open with bolc notes application your file and update all that must be update. The principal thing you have to modify is <code>XSeeker_path</code> at the beginning of the document.
+Don't forget to save your changes and then you can quit your file.</p>
+<p>The second file to modify is the <code>XSeeker.config</code> file. As the first one, you will need to copy it before making some modifications:
+<div class="language-yaml copy highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="l l-Scalar l-Scalar-Plain">cp ./config/XSeeker.config.template ./config/XSeeker.config</span>
+</span></code></pre></div>
+Then, you can open it with bloc note application and modify the directories if needed.</p>
+<h2 id="building-and-installation">Building and installation</h2>
+<p>The next thing is to install the different dependencies, then install the application and you can run it after:
+<div class="language-yaml copy highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="l l-Scalar l-Scalar-Plain">make install_deps</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="l l-Scalar l-Scalar-Plain">make install</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="l l-Scalar l-Scalar-Plain">make run</span>
+</span></code></pre></div></p>
+<p>Your application should be available on <code>dddddddd</code></p>
+<h2 id="structure">Structure</h2>
+<div class="language-yaml no-copy annotate highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="l l-Scalar l-Scalar-Plain">├── bin</span><span class="w"> </span><span class="c1">#(1)</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="l l-Scalar l-Scalar-Plain">├── config</span>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── config.default.yml</span><span class="w"> </span><span class="c1"># Default config file. Copy it to config.yml</span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── config.yml</span><span class="w"> </span><span class="c1"># The tool configuration</span>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── models.R</span><span class="w"> </span><span class="c1"># The database confiuration</span>
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeeker.config</span><span class="w"> </span><span class="c1"># Config stuff related to R</span>
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="l l-Scalar l-Scalar-Plain">│   └── XSeeker.config.template</span><span class="w"> </span><span class="c1"># Default config. Copy it to XSeeker.config</span>
+</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="l l-Scalar l-Scalar-Plain">├── configure</span><span class="w"> </span><span class="c1"># Script that generate the makefile. Uses data from XSeeker.config</span>
+</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a><span class="l l-Scalar l-Scalar-Plain">├── data</span><span class="w"> </span><span class="c1"># Some raws data</span>
+</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── adducts.csv</span>
+</span><span id="__span-5-11"><a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── base.sql</span>
+</span><span id="__span-5-12"><a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── isotopes.csv</span>
+</span><span id="__span-5-13"><a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a><span class="l l-Scalar l-Scalar-Plain">│   └── isotopes_halogenates.csv</span>
+</span><span id="__span-5-14"><a id="__codelineno-5-14" name="__codelineno-5-14" href="#__codelineno-5-14"></a><span class="l l-Scalar l-Scalar-Plain">├── DESCRIPTION</span>
+</span><span id="__span-5-15"><a id="__codelineno-5-15" name="__codelineno-5-15" href="#__codelineno-5-15"></a><span class="l l-Scalar l-Scalar-Plain">├── dist</span><span class="w"> </span><span class="c1"># Embed some external libraries to fix compatibility issues, or to have a fixed version of these</span>
+</span><span id="__span-5-16"><a id="__codelineno-5-16" name="__codelineno-5-16" href="#__codelineno-5-16"></a><span class="l l-Scalar l-Scalar-Plain">│   └── shinyBS</span>
+</span><span id="__span-5-17"><a id="__codelineno-5-17" name="__codelineno-5-17" href="#__codelineno-5-17"></a><span class="l l-Scalar l-Scalar-Plain">│       └── www</span>
+</span><span id="__span-5-18"><a id="__codelineno-5-18" name="__codelineno-5-18" href="#__codelineno-5-18"></a><span class="l l-Scalar l-Scalar-Plain">│           ├── bootstrap3-typeahead.js</span>
+</span><span id="__span-5-19"><a id="__codelineno-5-19" name="__codelineno-5-19" href="#__codelineno-5-19"></a><span class="l l-Scalar l-Scalar-Plain">│           ├── shinyBS.css</span>
+</span><span id="__span-5-20"><a id="__codelineno-5-20" name="__codelineno-5-20" href="#__codelineno-5-20"></a><span class="l l-Scalar l-Scalar-Plain">│           ├── shinyBS.js</span>
+</span><span id="__span-5-21"><a id="__codelineno-5-21" name="__codelineno-5-21" href="#__codelineno-5-21"></a><span class="l l-Scalar l-Scalar-Plain">│           └── typeahead_inputbinding.js</span>
+</span><span id="__span-5-22"><a id="__codelineno-5-22" name="__codelineno-5-22" href="#__codelineno-5-22"></a><span class="l l-Scalar l-Scalar-Plain">├── external_functions_definitions_helper.md</span>
+</span><span id="__span-5-23"><a id="__codelineno-5-23" name="__codelineno-5-23" href="#__codelineno-5-23"></a><span class="l l-Scalar l-Scalar-Plain">├── input</span><span class="w"> </span><span class="c1"># Directory from which XSeeker will automatically load files to process</span>
+</span><span id="__span-5-24"><a id="__codelineno-5-24" name="__codelineno-5-24" href="#__codelineno-5-24"></a><span class="l l-Scalar l-Scalar-Plain">│   └── test_file.sqlite</span>
+</span><span id="__span-5-25"><a id="__codelineno-5-25" name="__codelineno-5-25" href="#__codelineno-5-25"></a><span class="l l-Scalar l-Scalar-Plain">├── install.R</span>
+</span><span id="__span-5-26"><a id="__codelineno-5-26" name="__codelineno-5-26" href="#__codelineno-5-26"></a><span class="l l-Scalar l-Scalar-Plain">├── install.sh</span>
+</span><span id="__span-5-27"><a id="__codelineno-5-27" name="__codelineno-5-27" href="#__codelineno-5-27"></a><span class="l l-Scalar l-Scalar-Plain">├── LICENSE</span>
+</span><span id="__span-5-28"><a id="__codelineno-5-28" name="__codelineno-5-28" href="#__codelineno-5-28"></a><span class="l l-Scalar l-Scalar-Plain">├── Makefile</span>
+</span><span id="__span-5-29"><a id="__codelineno-5-29" name="__codelineno-5-29" href="#__codelineno-5-29"></a><span class="l l-Scalar l-Scalar-Plain">├── man</span><span class="w"> </span><span class="c1"># Documentation generated by Roxygen</span>
+</span><span id="__span-5-30"><a id="__codelineno-5-30" name="__codelineno-5-30" href="#__codelineno-5-30"></a><span class="l l-Scalar l-Scalar-Plain">├── modules</span><span class="w"> </span><span class="c1"># Directory where module&#39;s sources are stored</span>
+</span><span id="__span-5-31"><a id="__codelineno-5-31" name="__codelineno-5-31" href="#__codelineno-5-31"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerChromatoAndMassSpectrum</span><span class="w"> </span><span class="c1">#(2)</span>
+</span><span id="__span-5-32"><a id="__codelineno-5-32" name="__codelineno-5-32" href="#__codelineno-5-32"></a><span class="l l-Scalar l-Scalar-Plain">│   │   ├── DESCRIPTION</span>
+</span><span id="__span-5-33"><a id="__codelineno-5-33" name="__codelineno-5-33" href="#__codelineno-5-33"></a><span class="l l-Scalar l-Scalar-Plain">│   │   ├── man</span>
+</span><span id="__span-5-34"><a id="__codelineno-5-34" name="__codelineno-5-34" href="#__codelineno-5-34"></a><span class="l l-Scalar l-Scalar-Plain">│   │   ├── NAMESPACE</span>
+</span><span id="__span-5-35"><a id="__codelineno-5-35" name="__codelineno-5-35" href="#__codelineno-5-35"></a><span class="l l-Scalar l-Scalar-Plain">│   │   └── R</span>
+</span><span id="__span-5-36"><a id="__codelineno-5-36" name="__codelineno-5-36" href="#__codelineno-5-36"></a><span class="l l-Scalar l-Scalar-Plain">│   │       ├── module.R</span>
+</span><span id="__span-5-37"><a id="__codelineno-5-37" name="__codelineno-5-37" href="#__codelineno-5-37"></a><span class="l l-Scalar l-Scalar-Plain">│   │       ├── server.R</span>
+</span><span id="__span-5-38"><a id="__codelineno-5-38" name="__codelineno-5-38" href="#__codelineno-5-38"></a><span class="l l-Scalar l-Scalar-Plain">│   │       ├── tools.R</span>
+</span><span id="__span-5-39"><a id="__codelineno-5-39" name="__codelineno-5-39" href="#__codelineno-5-39"></a><span class="l l-Scalar l-Scalar-Plain">│   │       └── ui.R</span>
+</span><span id="__span-5-40"><a id="__codelineno-5-40" name="__codelineno-5-40" href="#__codelineno-5-40"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerChromatoAndMassSpectrum_0.1.0.tar.gz</span>
+</span><span id="__span-5-41"><a id="__codelineno-5-41" name="__codelineno-5-41" href="#__codelineno-5-41"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerClusterTable</span>
+</span><span id="__span-5-42"><a id="__codelineno-5-42" name="__codelineno-5-42" href="#__codelineno-5-42"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerClusterTable_0.1.tar.gz</span>
+</span><span id="__span-5-43"><a id="__codelineno-5-43" name="__codelineno-5-43" href="#__codelineno-5-43"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerComputeFormula</span>
+</span><span id="__span-5-44"><a id="__codelineno-5-44" name="__codelineno-5-44" href="#__codelineno-5-44"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerComputeFormula_0.1.0.tar.gz</span>
+</span><span id="__span-5-45"><a id="__codelineno-5-45" name="__codelineno-5-45" href="#__codelineno-5-45"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerDatabaseManager</span>
+</span><span id="__span-5-46"><a id="__codelineno-5-46" name="__codelineno-5-46" href="#__codelineno-5-46"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerDatabaseManager_0.1.0.tar.gz</span>
+</span><span id="__span-5-47"><a id="__codelineno-5-47" name="__codelineno-5-47" href="#__codelineno-5-47"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerDatabaseSummary</span>
+</span><span id="__span-5-48"><a id="__codelineno-5-48" name="__codelineno-5-48" href="#__codelineno-5-48"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerDatabaseSummary_0.1.0.tar.gz</span>
+</span><span id="__span-5-49"><a id="__codelineno-5-49" name="__codelineno-5-49" href="#__codelineno-5-49"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerFilePreProcessing</span>
+</span><span id="__span-5-50"><a id="__codelineno-5-50" name="__codelineno-5-50" href="#__codelineno-5-50"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerFilePreProcessing_0.1.0.tar.gz</span>
+</span><span id="__span-5-51"><a id="__codelineno-5-51" name="__codelineno-5-51" href="#__codelineno-5-51"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerFooter</span>
+</span><span id="__span-5-52"><a id="__codelineno-5-52" name="__codelineno-5-52" href="#__codelineno-5-52"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerGalaxyInterfacR</span>
+</span><span id="__span-5-53"><a id="__codelineno-5-53" name="__codelineno-5-53" href="#__codelineno-5-53"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerGalaxyInterfacR_0.1.0.tar.gz</span>
+</span><span id="__span-5-54"><a id="__codelineno-5-54" name="__codelineno-5-54" href="#__codelineno-5-54"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerHairyPlotter</span>
+</span><span id="__span-5-55"><a id="__codelineno-5-55" name="__codelineno-5-55" href="#__codelineno-5-55"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerHairyPlotter_0.1.0.tar.gz</span>
+</span><span id="__span-5-56"><a id="__codelineno-5-56" name="__codelineno-5-56" href="#__codelineno-5-56"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerKMDPlot</span>
+</span><span id="__span-5-57"><a id="__codelineno-5-57" name="__codelineno-5-57" href="#__codelineno-5-57"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerKMDPlot_0.1.tar.gz</span>
+</span><span id="__span-5-58"><a id="__codelineno-5-58" name="__codelineno-5-58" href="#__codelineno-5-58"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerModuleTemplate</span>
+</span><span id="__span-5-59"><a id="__codelineno-5-59" name="__codelineno-5-59" href="#__codelineno-5-59"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerPreProcessAlignment</span>
+</span><span id="__span-5-60"><a id="__codelineno-5-60" name="__codelineno-5-60" href="#__codelineno-5-60"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerPreProcessAlignment_0.1.0.tar.gz</span>
+</span><span id="__span-5-61"><a id="__codelineno-5-61" name="__codelineno-5-61" href="#__codelineno-5-61"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerPreProcessCamera</span>
+</span><span id="__span-5-62"><a id="__codelineno-5-62" name="__codelineno-5-62" href="#__codelineno-5-62"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerPreProcessCamera_0.1.0.tar.gz</span>
+</span><span id="__span-5-63"><a id="__codelineno-5-63" name="__codelineno-5-63" href="#__codelineno-5-63"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerPreProcessPeakPicking</span>
+</span><span id="__span-5-64"><a id="__codelineno-5-64" name="__codelineno-5-64" href="#__codelineno-5-64"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerPreProcessPeakPicking_0.1.0.tar.gz</span>
+</span><span id="__span-5-65"><a id="__codelineno-5-65" name="__codelineno-5-65" href="#__codelineno-5-65"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── XSeekerRdataManager</span>
+</span><span id="__span-5-66"><a id="__codelineno-5-66" name="__codelineno-5-66" href="#__codelineno-5-66"></a><span class="l l-Scalar l-Scalar-Plain">│   └── XSeekerRdataManager_0.1.0.tar.gz</span>
+</span><span id="__span-5-67"><a id="__codelineno-5-67" name="__codelineno-5-67" href="#__codelineno-5-67"></a><span class="l l-Scalar l-Scalar-Plain">├── NAMESPACE</span>
+</span><span id="__span-5-68"><a id="__codelineno-5-68" name="__codelineno-5-68" href="#__codelineno-5-68"></a><span class="l l-Scalar l-Scalar-Plain">├── output</span>
+</span><span id="__span-5-69"><a id="__codelineno-5-69" name="__codelineno-5-69" href="#__codelineno-5-69"></a><span class="l l-Scalar l-Scalar-Plain">├── R</span>
+</span><span id="__span-5-70"><a id="__codelineno-5-70" name="__codelineno-5-70" href="#__codelineno-5-70"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── classes.R</span><span class="w"> </span><span class="c1"># The class definition</span>
+</span><span id="__span-5-71"><a id="__codelineno-5-71" name="__codelineno-5-71" href="#__codelineno-5-71"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── core.R</span><span class="w"> </span><span class="c1"># The core definition</span>
+</span><span id="__span-5-72"><a id="__codelineno-5-72" name="__codelineno-5-72" href="#__codelineno-5-72"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── server</span>
+</span><span id="__span-5-73"><a id="__codelineno-5-73" name="__codelineno-5-73" href="#__codelineno-5-73"></a><span class="l l-Scalar l-Scalar-Plain">│   │   └── R</span>
+</span><span id="__span-5-74"><a id="__codelineno-5-74" name="__codelineno-5-74" href="#__codelineno-5-74"></a><span class="l l-Scalar l-Scalar-Plain">│   │       ├── infoPopup.R</span>
+</span><span id="__span-5-75"><a id="__codelineno-5-75" name="__codelineno-5-75" href="#__codelineno-5-75"></a><span class="l l-Scalar l-Scalar-Plain">│   │       ├── introjs.R</span>
+</span><span id="__span-5-76"><a id="__codelineno-5-76" name="__codelineno-5-76" href="#__codelineno-5-76"></a><span class="l l-Scalar l-Scalar-Plain">│   │       └── summary.R</span>
+</span><span id="__span-5-77"><a id="__codelineno-5-77" name="__codelineno-5-77" href="#__codelineno-5-77"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── server.R</span><span class="w"> </span><span class="c1"># Simple RShiny server</span>
+</span><span id="__span-5-78"><a id="__codelineno-5-78" name="__codelineno-5-78" href="#__codelineno-5-78"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── tools.R</span><span class="w"> </span><span class="c1"># The definition of some tools usefull to all modules</span>
+</span><span id="__span-5-79"><a id="__codelineno-5-79" name="__codelineno-5-79" href="#__codelineno-5-79"></a><span class="l l-Scalar l-Scalar-Plain">│   └── ui.R</span><span class="w"> </span><span class="c1"># Simple RShiny ui definition</span>
+</span><span id="__span-5-80"><a id="__codelineno-5-80" name="__codelineno-5-80" href="#__codelineno-5-80"></a><span class="l l-Scalar l-Scalar-Plain">├── README.md</span>
+</span><span id="__span-5-81"><a id="__codelineno-5-81" name="__codelineno-5-81" href="#__codelineno-5-81"></a><span class="l l-Scalar l-Scalar-Plain">├── README.Rmd</span>
+</span><span id="__span-5-82"><a id="__codelineno-5-82" name="__codelineno-5-82" href="#__codelineno-5-82"></a><span class="l l-Scalar l-Scalar-Plain">├── r.sh</span>
+</span><span id="__span-5-83"><a id="__codelineno-5-83" name="__codelineno-5-83" href="#__codelineno-5-83"></a><span class="l l-Scalar l-Scalar-Plain">├── run.sh</span>
+</span><span id="__span-5-84"><a id="__codelineno-5-84" name="__codelineno-5-84" href="#__codelineno-5-84"></a><span class="l l-Scalar l-Scalar-Plain">├── TECHNICAL_DOC.md</span>
+</span><span id="__span-5-85"><a id="__codelineno-5-85" name="__codelineno-5-85" href="#__codelineno-5-85"></a><span class="l l-Scalar l-Scalar-Plain">├── test</span><span class="w"> </span><span class="c1"># Unit test directory</span>
+</span><span id="__span-5-86"><a id="__codelineno-5-86" name="__codelineno-5-86" href="#__codelineno-5-86"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── test_all.R</span>
+</span><span id="__span-5-87"><a id="__codelineno-5-87" name="__codelineno-5-87" href="#__codelineno-5-87"></a><span class="l l-Scalar l-Scalar-Plain">│   └── tests_configuration.R</span>
+</span><span id="__span-5-88"><a id="__codelineno-5-88" name="__codelineno-5-88" href="#__codelineno-5-88"></a><span class="l l-Scalar l-Scalar-Plain">├── test.sqlite</span>
+</span><span id="__span-5-89"><a id="__codelineno-5-89" name="__codelineno-5-89" href="#__codelineno-5-89"></a><span class="l l-Scalar l-Scalar-Plain">├── vignettes</span><span class="w"> </span><span class="c1"># Generated by Roxygen</span>
+</span><span id="__span-5-90"><a id="__codelineno-5-90" name="__codelineno-5-90" href="#__codelineno-5-90"></a><span class="l l-Scalar l-Scalar-Plain">│   └── XSeeker.Rmd</span>
+</span><span id="__span-5-91"><a id="__codelineno-5-91" name="__codelineno-5-91" href="#__codelineno-5-91"></a><span class="l l-Scalar l-Scalar-Plain">├── www</span><span class="w"> </span><span class="c1"># Some web resources</span>
+</span><span id="__span-5-92"><a id="__codelineno-5-92" name="__codelineno-5-92" href="#__codelineno-5-92"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── addItemsPicker.js</span>
+</span><span id="__span-5-93"><a id="__codelineno-5-93" name="__codelineno-5-93" href="#__codelineno-5-93"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── check.png</span>
+</span><span id="__span-5-94"><a id="__codelineno-5-94" name="__codelineno-5-94" href="#__codelineno-5-94"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── delete.png</span>
+</span><span id="__span-5-95"><a id="__codelineno-5-95" name="__codelineno-5-95" href="#__codelineno-5-95"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── details_close.png</span>
+</span><span id="__span-5-96"><a id="__codelineno-5-96" name="__codelineno-5-96" href="#__codelineno-5-96"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── details_open.png</span>
+</span><span id="__span-5-97"><a id="__codelineno-5-97" name="__codelineno-5-97" href="#__codelineno-5-97"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── galaxy.png</span>
+</span><span id="__span-5-98"><a id="__codelineno-5-98" name="__codelineno-5-98" href="#__codelineno-5-98"></a><span class="l l-Scalar l-Scalar-Plain">│   ├── shinyCSS.css</span>
+</span><span id="__span-5-99"><a id="__codelineno-5-99" name="__codelineno-5-99" href="#__codelineno-5-99"></a><span class="l l-Scalar l-Scalar-Plain">│   └── shinyJS.js</span>
+</span><span id="__span-5-100"><a id="__codelineno-5-100" name="__codelineno-5-100" href="#__codelineno-5-100"></a><span class="l l-Scalar l-Scalar-Plain">└── XSeeker.xml</span>
+</span></code></pre></div>
+<ol>
+<li>Directory where module's binary version are stored</li>
+<li>Example of that a module contains</li>
+<li></li>
+<li></li>
+<li></li>
+</ol>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.code.select", "navigation.instant", "navigation.indexes", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.sections", "navigation.expand", "navigation.path", "toc.integrate"], "search": "../../assets/javascripts/workers/search.a264c092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.4e0fa4ba.min.js"></script>
+      
+    
+  </body>
+</html>
